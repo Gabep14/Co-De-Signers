@@ -13,5 +13,5 @@ func chapterThree() {
     print("Her Acting Debut She lands a role in the television series Empire where she plays herself. 2021")
     print("She appears in the series BMF as a recurring character. 2021")
     print("Her Mixtape Drops After a brief hiatus, she releases her first Gangsta Grillz mixtape, Back On Dexter. 2023")
-    print("")
+    print("Detroit loves her")
 }
