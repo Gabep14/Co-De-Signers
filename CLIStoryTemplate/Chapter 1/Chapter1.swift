@@ -6,5 +6,8 @@
 import Foundation
 
 func chapterOne() {
-    // Your portion of the story goes here
+    print("42 Dugg was born in Detroit")
+    print("He was arrested and thrown in solitary confinement")
+    print("He learned to rap in jail and is now a very successful rapper")
 }
+
