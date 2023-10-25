@@ -5,7 +5,7 @@
 
 import Foundation
 let changeOfFate:Int = 2005
-let character:String = "Big Sean"
+let mainCharacter:String = "Big Sean"
 let bigDate = 2005-1988
 let guild = "GOOD record label"
 let Wizard = "Kanye West"
@@ -24,14 +24,14 @@ func checkIfSignWithLabel() {
 }
 
 func chapterTwo() {
-    print("In \(changeOfFate) \(character) was \(bigDate)")
+    print("In \(changeOfFate) \(mainCharacter) was \(bigDate)")
     
-    print( "and was working as a telemarketer when he got a phone call from a friend who wanted to grant him a wish and make his dreams come true and introduce him to a \(Wizard) \(character)")
-    print(" went running for his chance but the \(Wizard) wouldnt grant him his wish because he said \(character)")
-    print(" wasnt good enough \(character) s")
+    print( "and was working as a telemarketer when he got a phone call from a friend who wanted to grant him a wish and make his dreams come true and introduce him to a \(Wizard) \(mainCharacter)")
+    print(" went running for his chance but the \(Wizard) wouldnt grant him his wish because he said \(mainCharacter)")
+    print(" wasnt good enough \(mainCharacter) s")
    
     approach()
-          print("the \(Wizard) told him I see you can do great things with your talents and i will grant you your wish \(character)")
+          print("the \(Wizard) told him I see you can do great things with your talents and i will grant you your wish \(mainCharacter)")
   
           print( "gave the \(Wizard) a book of his greatest magic and the \(Wizard) asked him to become part of his \(guild)")
 
