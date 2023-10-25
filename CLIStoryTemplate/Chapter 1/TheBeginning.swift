@@ -21,6 +21,7 @@ func chapterOne() {
     }
     else {
         print("\(rapper) let the fame get to him, got involved with drugs and was thrown in jail.")
+    }
 }
     
 
