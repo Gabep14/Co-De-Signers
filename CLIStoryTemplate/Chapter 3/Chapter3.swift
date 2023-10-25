@@ -5,6 +5,7 @@
 
 import Foundation
 
+
 let character = "Big Sean"
 var movesToDetroit = false
 var staysInSantaMonica = false
@@ -33,6 +34,5 @@ func chapterThree(){
     
   
     
-}
-    
+
 
