@@ -17,14 +17,14 @@ func endofchapter3(){print("Known professionally as \(character), is an American
 
 
 func chapterThree(){
-          print("SEAN ANDERSON FOUNDATION STUDIOS Multi-platinum artist,philanthropist and BGCSM Alumni \(character) was excited to return to Detroit for his 3rd Annual Detroits On Now D.O.N Weekend Saturday, August 28  Sunday,August 29")
-          print("The weekend was presented by the Sean Anderson Foundation (SAF) and hosted by the Boys & Girls Clubs of Southeastern Michigan (BGCSM) and City Council President Pro-Tem Mary Sheffield and offered free activities for all ages.")
+    print("SEAN ANDERSON FOUNDATION STUDIOS Multi-platinum artist,philanthropist and BGCSM Alumni \(character) was excited to return to Detroit for his 3rd Annual Detroits On Now D.O.N Weekend Saturday, August 28  Sunday,August 29")
+    print("The weekend was presented by the Sean Anderson Foundation (SAF) and hosted by the Boys & Girls Clubs of Southeastern Michigan (BGCSM) and City Council President Pro-Tem Mary Sheffield and offered free activities for all ages.")
     
     if movesToDetroit {
         print (" Opens SEAN ANDERSON FOUNDATION STUDIOS as an adult")
         
     }
-
+    
     else if staysInSantaMonica {
         print("Becomes a dishwasher at a resturant")
         
@@ -32,7 +32,7 @@ func chapterThree(){
         
     }
     
-  
+}
     
 
 
