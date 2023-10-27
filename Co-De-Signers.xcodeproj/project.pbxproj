@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D2E1FE12AE9FA6800AF35A1 /* Chapter 2 conditions, functions.. and all.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2E1FE02AE9FA6800AF35A1 /* Chapter 2 conditions, functions.. and all.swift */; };
 		74E289BE2A7C21FC003072EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289BD2A7C21FC003072EC /* main.swift */; };
 		74E289C52A7C220C003072EC /* Chapter1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289C42A7C220C003072EC /* Chapter1.swift */; };
 		74E289C72A7C2211003072EC /* Chapter2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289C62A7C2211003072EC /* Chapter2.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2D2E1FE02AE9FA6800AF35A1 /* Chapter 2 conditions, functions.. and all.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter 2 conditions, functions.. and all.swift"; sourceTree = "<group>"; };
 		74E289BA2A7C21FC003072EC /* Co-De-Signers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Co-De-Signers"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E289BD2A7C21FC003072EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		74E289C42A7C220C003072EC /* Chapter1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				74E289C62A7C2211003072EC /* Chapter2.swift */,
+				2D2E1FE02AE9FA6800AF35A1 /* Chapter 2 conditions, functions.. and all.swift */,
 			);
 			path = "Chapter 2";
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				74E289C72A7C2211003072EC /* Chapter2.swift in Sources */,
 				74E289C92A7C221D003072EC /* Chapter3.swift in Sources */,
 				74E289CD2A7C222C003072EC /* Chapter5.swift in Sources */,
+				2D2E1FE12AE9FA6800AF35A1 /* Chapter 2 conditions, functions.. and all.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
