@@ -9,15 +9,16 @@ import Foundation
 
 let numberOfOrganizations: Int = 3
  let Lead = "Sean Anderson" //Big Sean
- let safDate = "2012"
- let donDate = "2018"
+var multipleDates: [String] = [
+"2012",
+"2018",
+"2017" ]
  let key = "2017"
  let org1 = "Sean Anderson Foundation"
  let org2 = "DON"
  let yesSAF = false
  let noSAF = true
  // swap them around
-
 
  func chapterFour() {
 
@@ -26,8 +27,8 @@ let numberOfOrganizations: Int = 3
      print("He now plays a role in a number of youth-helping organizations in the town.")
      print(" \(Lead) most known \(numberOfOrganizations) is the \(org1), \(org2) weekend, and many other as he continues to impact Detroit.")
 
-     print(" \(Lead) first founded the \(org1) in \(safDate)    ")
-     print("and \(Lead) also founded the \(org2) in \(donDate), a year after receiving a key to Detroit in \(key). ")
+     print(" \(Lead) first founded the \(org1) in \(multipleDates[0])")
+     print("and \(Lead) also founded the \(org2) in \(multipleDates[1]), a year after receiving a key to Detroit in \(multipleDates[2]).")
 
 
      if yesSAF {
