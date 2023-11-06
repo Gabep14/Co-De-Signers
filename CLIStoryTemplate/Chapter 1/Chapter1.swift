@@ -8,15 +8,16 @@ import Foundation
 let rapper = "Big Sean"
 let city = "Detroit"
 var isHumble = true
-var year = 0
+var year: Int? = 0
 var isCrying = true
 
-struct Family {    // struct of big seans family with their title and names
+struct Family {    // struct of big seans family with their title, names, and family relation
     var title: String
     var person: String
+    var familyRelation: String?
 }
 
-var people = [Family(title: "rapper", person: "Sean Michael Leonard Anderson"), Family(title: "mother", person: "Myra Anderson"), Family(title: "grandmother", person: "Mildred Leonard"), Family(title: "famous rapper", person: "Kanye West")]
+var people = [Family(title: "rapper", person: "Sean Michael Leonard Anderson", familyRelation: nil), Family(title: "mom", person: "Myra Anderson", familyRelation: "mother"), Family(title: "nana", person: "Mildred Leonard", familyRelation: "grandmother"), Family(title: "famous rapper", person: "Kanye West", familyRelation: nil)]
 // array of people using the family struct, itentifying their title and name
 
 
@@ -46,13 +47,15 @@ func bigseanIsBorn() {   // function to print big seans birth and young life
     print("   The \(people[0].title) \(people[0].person), known as \(rapper), was born in Santa Monica, California, on March 25, \(yearBorn).")
     print("He quickly moved to Detroit, Michigan at just two months of age in \(yearBorn).")
     
-    var cries = 0  // initialize amount of times baby sean cries
+    
     
     print("   \(rapper) was not an easy baby. He would cry and scream often, saying: ")
     
+    var cries = 0  // initialize amount of times baby sean cries
+    
     while isCrying == true {     //while loop to print catchprase if bool is true
         print("    'Waaaaa! What up doe!'")
-        cries += 1             // increment cries and terminate loop if greater than 2
+        cries += 1
         if cries > 2 {
             isCrying = false
         }
@@ -60,7 +63,7 @@ func bigseanIsBorn() {   // function to print big seans birth and young life
 }
 
 func importantMoments(index: Int) -> String {   // function to store and return big seans important                                                       moments at index
-    var formativeMoments = ["He would rap occoasionaly over the Detroit radio station 102.7FM", "and would later attend Cass Tech High School", "'There's been so many nights where instead of going out I've had to work and was depressed so I feel like I deserve this. This is what I was meant to do.'"]
+    let formativeMoments = ["He would rap occoasionaly over the Detroit radio station 102.7FM", "and would later attend Cass Tech High School", "'There's been so many nights where instead of going out I've had to work and was depressed so I feel like I deserve this. This is what I was meant to do.'"]
     return formativeMoments[index]
 }
     
@@ -75,8 +78,13 @@ func importantMoments(index: Int) -> String {   // function to store and return 
         let yearRapping = BigYears.startedRapping.year   // set the year he started rapping using BigYears                                                 enum and cases
         
         
-        print("   \(rapper) was raised by his \(people[1].title) \(people[1].person) and his \(people[2].title) \(people[2].person) to work hard in everything he did. Sean started rapping at the age of 12 in \(yearRapping), attending Waldorf School in Detroit, \(importantMoments(index: 1)), where he purued his music passion.")
-        print("\(rapper) even sold copies of his music in high school to his piers.")
+        if let person = people[1].familyRelation {
+            print("   \(rapper) was raised by his \(String(describing: people[1].familyRelation ?? "no relation"))     \(people[1].person) and his")
+        }
+        if let person = people[2].familyRelation {
+            print("\(String(describing: people[2].familyRelation ?? "no relation")) \(people[2].person) to work hard in everything he did. Sean started rapping at the age of 12 in \(yearRapping), attending Waldorf School in Detroit, \(importantMoments(index: 1)), where he purued his music passion.")
+            print("\(rapper) even sold copies of his music in high school to his piers.")
+        }
         
         
         
