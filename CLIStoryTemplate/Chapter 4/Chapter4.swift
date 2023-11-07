@@ -9,7 +9,7 @@ import Foundation
 
 let numberOfOrganizations: Int = 3
  let Lead = "Sean Anderson" //Big Sean
-var multipleDates: [String] = [
+let multipleDates: [String] = [
 "2012",
 "2018",
 "2017" ]
