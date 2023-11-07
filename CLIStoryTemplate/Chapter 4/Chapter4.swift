@@ -55,12 +55,25 @@ let meditationN = ["Step 1: Find a quiet spot","Step 2: Close your eyes","Step 3
          
      }
 
+     struct bigSeanClothing {
+         var shirt1: String
+         var shirt2: String
+     }
+     let bigSeanShop = bigSeanClothing(shirt1: "Find the light jersey", shirt2: "Live from Detroit Tee")
      
+     print("  Big Sean also owns a clothing brand, Don Life, and you can find shirts like the," ,bigSeanShop.shirt2, "on his website bigseanshop.")
      
+     enum bigSeanDonation {
+         case boysandgirlsclubofsoutheasternmichigan
+         case waynestateshighprogram
+         
+         
+         
+     }
      
      
      }
-
+ 
 
  
 
