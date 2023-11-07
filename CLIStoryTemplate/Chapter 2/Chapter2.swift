@@ -24,16 +24,22 @@ let doesNotSignWithLabel = "Does not gain fame and stays working as a telemarket
 let influencesarray: [String??] =  ["Eminem, The Notorious B.I.G., and J Dilla"]
 var signedWithLabelarray: [Bool] = [true]
 
+//////////Optionals/////////////////////////
+var BigSeaN: Bool? = nil
+
+func BigSean2()-> Bool? {
+      BigSeaN
+    
+}
+
+func BigSean3() ->Bool {
+    return BigSean3() ?? false
+}
 
 
-//func checkIfSignWithLabel() {
-//    if signedWithLabel {
-//        print("And that is just the start of \(mainCharacter)'s story")
-//    }else if doesNotSignWithLabel {
-//        print("Does not gain fame and stays working as a telemarketer")
-//    }
-//}
-//print(checkIfSignWithLabel())
+let BigSean = BigSean2()
+
+
 
 
 
@@ -45,11 +51,6 @@ func chapterTwo() {
     print("When Sean got his chance to meet Kanye West in 2005, at \(radioStation) he asked him  “Can I rap for you?” “He told me I had 16 bars,” Sean said. “I ended up rapping for 10 minutes and it changed my life.")
     
    
-    
-    enum BigSeAN {
-        
-        
-    }
 
     /////////////////////////////////////loops//////////////////////////////////////////////////////
     let barz = [
@@ -94,8 +95,7 @@ print("\(labelOwner) told \(mainCharacter) that he wanted to add him to his reco
     print("\(mainCharacter) gave \(labelOwner) all of the mixtapes he had been working on.")
     let bigSean = Person(main: "BigSean", date: 2005)
     bigSean.signWithLabel()
-    print("                                 END OF CHAPTER 2\n")
-     }
+  
 
 
 
@@ -117,7 +117,12 @@ struct Person {
         
     }
     
+   
+     
+    
     }
+    print("                                 END OF CHAPTER 2\n")
+     }
 ///////////////////////////////////////ENUMS WITH FUNCTIONS//////////////////////////////////////////////////////////////
 //enum Music {
 //
