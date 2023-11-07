@@ -13,6 +13,7 @@ let multipleDates: [String] = [
 "2012",
 "2018",
 "2017" ]
+let meditationN = ["Step 1: Find a quiet spot","Step 2: Close your eyes","Step 3: Focus on your breathing", "Step 4: Become one with the earth", "Step 5: Travel above the earth", "Step 6: Go all gold everything"]
  let key = "2017"
  let org1 = "Sean Anderson Foundation"
  let org2 = "DON"
@@ -48,10 +49,16 @@ let multipleDates: [String] = [
 
      afterKey(msg: "The community of Detroit has been greatly influenced by Big Sean, \(Lead)....")
 
+     for meditation in meditationN {
+         print (" An up close exclusive interview revealed that this is what Big Sean does when he is trying to meditate before a big show \(meditationN) ")
+         break
+         
+     }
 
-
-
-
+     
+     
+     
+     
      }
 
 
