@@ -3,6 +3,7 @@
 //  CLIStoryTemplate
 //
 
+
 import Foundation
 let changeOfFate:Int = 2005
 let mainCharacter:String = "Big Sean"
@@ -23,45 +24,33 @@ let doesNotSignWithLabel = "Does not gain fame and stays working as a telemarket
 let influencesarray: [String??] =  ["Eminem, The Notorious B.I.G., and J Dilla"]
 var signedWithLabelarray: [Bool] = [true]
 
+//////////Optionals/////////////////////////
+var BigSeaN: Bool? = nil
+
+func BigSean2()-> Bool? {
+      BigSeaN
+    
+}
+
+func BigSean3() ->Bool {
+    return BigSean3() ?? false
+}
 
 
-//func checkIfSignWithLabel() {
-//    if signedWithLabel {
-//        print("And that is just the start of \(mainCharacter)'s story")
-//    }else if doesNotSignWithLabel {
-//        print("Does not gain fame and stays working as a telemarketer")
-//    }
-//}
-//print(checkIfSignWithLabel())
+let BigSean = BigSean2()
+
+
 
 
 
 
 func chapterTwo() {
-chapter2
     print("\n")
   
     print("\nIn \(changeOfFate) \(mainCharacter) was \(bigDate) and was working as a telemarketer at this time and selling his CD's and mixtapes on the side.He would participate in rap battles heald at \(radioStation) A DJ from \(radioStation) wanted to introduce him to \(labelOwner).")
     print("When Sean got his chance to meet Kanye West in 2005, at \(radioStation) he asked him  “Can I rap for you?” “He told me I had 16 bars,” Sean said. “I ended up rapping for 10 minutes and it changed my life.")
-
-    let changeOfFate = 2005
-    let character = "BigSean"
-    let bigDate = 2005-1988
-    let guild = "GOOD record label"
-    print("\nIn \(changeOfFate) \(mainCharacter) was \(bigDate), he was working as a telemarketer when he got a phone call from a friend. His friend told him that  wanted to introduce him to \(labelOwner).")
-    print("\(mainCharacter) was ready to meet Kanye, but Kayne wasnt interested at signing on new people at the time.")
-    print("He told him he didnt have time to listen to his mixtapes.")
-    approach()
-    print("After finally listening to him, he told him that he would like to work with him.")
-    print("\(mainCharacter) then gave Kanye all of the mixtapes that he had made and asked him to listen to them. Kanye asked him to become part of his record label called \(recordLabel)")
- main
     
    
-    
- chapter2
-    enum BigSeAN {
-        
-    }
 
     /////////////////////////////////////loops//////////////////////////////////////////////////////
     let barz = [
@@ -106,8 +95,7 @@ print("\(labelOwner) told \(mainCharacter) that he wanted to add him to his reco
     print("\(mainCharacter) gave \(labelOwner) all of the mixtapes he had been working on.")
     let bigSean = Person(main: "BigSean", date: 2005)
     bigSean.signWithLabel()
-    print("                                 END OF CHAPTER 2\n")
-     }
+  
 
 
 
@@ -129,29 +117,34 @@ struct Person {
         
     }
     
+   
+     
+    
     }
+    print("                                 END OF CHAPTER 2\n")
+     }
 ///////////////////////////////////////ENUMS WITH FUNCTIONS//////////////////////////////////////////////////////////////
 //enum Music {
 //
 //    case FinallyFamous,BiggerThanMe, Decided
-//  
+//
 //    }
 //func songs(song: Music) -> String {
 //
 //    switch song {
 //    case  .FinallyFamous:
 //        return "Finally Famous Bro"
-//        
+//
 //    case  .BiggerThanMe:
 //        return "Bigger than me"
 //    case  .Decided:
 //        "Decided blah blah blah"
-//        
+//
 //    }
 //    print(songs(song: .FinallyFamous))
-//    
-//    
-//    
+//
+//
+//
 //}
 
 ////////////////////////////////ENUMS WITHOUT FUNCTIONS///////////////////////////////////////////////////////////////////
@@ -163,9 +156,6 @@ struct Person {
 
 
 
-    checkIfSignWithLabel()
-}
- main
 
 
 
