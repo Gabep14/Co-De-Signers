@@ -9,7 +9,6 @@ let mainCharacter:String = "Big Sean"
 let bigDate = 2005-1988
 let radioStation = "WHTD"
 let recordLabel = "GOOD record label"
-//let barz =
 let labelOwner = "Kanye West"
 let influences = "Eminem, The Notorious B.I.G., and J Dilla"
 let signedWithLabel = "And that is just the start of \(mainCharacter)'s story"
@@ -20,7 +19,8 @@ let doesNotSignWithLabel = "Does not gain fame and stays working as a telemarket
 
 
 ////////////////////////////////////////////////Array//////////////////////////////////////////////////////
-let influencesarray: [String] =  ["Eminem, The Notorious B.I.G., and J Dilla"]
+///optionals
+let influencesarray: [String??] =  ["Eminem, The Notorious B.I.G., and J Dilla"]
 var signedWithLabelarray: [Bool] = [true]
 
 
@@ -32,53 +32,22 @@ var signedWithLabelarray: [Bool] = [true]
 //        print("Does not gain fame and stays working as a telemarketer")
 //    }
 //}
-//print.checkIfSignWithLabel().random
-
+//print(checkIfSignWithLabel())
 
 
 
 
 func chapterTwo() {
     print("\n")
-   /////////////////////////////////////loops//////////////////////////////////////////////////////
-    
-    let string = ["Eminem, The Notorious B.I.G., and J Dilla"]
-    for string in string {
-        print(string)
-    }
-    
-    let Sign = Int.random(in: 0...1)
-    
-    if Sign == 0 {
-        print("Condition 1 is true")
-    } else {
-        print("Condition 2 is true")
-    }
-    
-    
-    
-    
-    
-//
-//    func checkIfSignWithLabel()  {
-//        if signedWithLabel {
-//            print("And that is just the start of \(mainCharacter)'s story")
-//        }else if doesNotSignWithLabel {
-//            print("Does not gain fame and stays working as a telemarketer")
-//        }
-//    }
-    
-    
-    
-    
-    
-    
+  
     print("\nIn \(changeOfFate) \(mainCharacter) was \(bigDate) and was working as a telemarketer at this time and selling his CD's and mixtapes on the side.He would participate in rap battles heald at \(radioStation) A DJ from \(radioStation) wanted to introduce him to \(labelOwner).")
     print("When Sean got his chance to meet Kanye West in 2005, at \(radioStation) he asked him  “Can I rap for you?” “He told me I had 16 bars,” Sean said. “I ended up rapping for 10 minutes and it changed my life.")
     
    
     
-    
+    enum BigSeAN {
+        
+    }
 
     /////////////////////////////////////loops//////////////////////////////////////////////////////
     let barz = [
@@ -104,7 +73,7 @@ func chapterTwo() {
     let barsAreGood = false
 
     if !barsAreGood {
-        for index in 0..<barz.count { // 0 - 15
+        for index in 0..<barz.count {
             print(barz.randomElement()!)
         }
     } else {
@@ -112,18 +81,72 @@ func chapterTwo() {
             print(bar)
         }
     }
-//    func checkIfSignWithLabel(upperBound: Bool) -> Bool {
-//        return Bool.random()
-//        
-//    }
+
+    print("\(mainCharacter)'s influences were")
+    let string = ["Eminem, The Notorious B.I.G., and J Dilla"]
+    for string in string {
+        print(string)
+    }
+    
 print("\(labelOwner) told \(mainCharacter) that he wanted to add him to his record label.")
     print("\(mainCharacter) gave \(labelOwner) all of the mixtapes he had been working on.")
-//    checkIfSignWithLabel()
+    let bigSean = Person(main: "BigSean", date: 2005)
+    bigSean.signWithLabel()
     print("                                 END OF CHAPTER 2\n")
      }
-     
+
+
+
+struct Person {
+    let main: String
+    let date: Int
+    
+    
+    //////////////if i wanted to add something add mutating.func only inside of structs   ////////////////////////////////////////////////////////////
+    func signWithLabel(){
+       ///////////////////func inside struct is called method////////////////////////////////////////////////////////////////
+        let Sign = Int.random(in: 0...1)
+        
+        if Sign == 0 {
+            print("Does not gain fame and stays working as a telemarketer")
+        } else {
+            print("And that is just the start of \(mainCharacter)'s story")
+        }
+        
+    }
+    
+    }
+///////////////////////////////////////ENUMS WITH FUNCTIONS//////////////////////////////////////////////////////////////
+//enum Music {
+//
+//    case FinallyFamous,BiggerThanMe, Decided
+//  
+//    }
+//func songs(song: Music) -> String {
+//
+//    switch song {
+//    case  .FinallyFamous:
+//        return "Finally Famous Bro"
+//        
+//    case  .BiggerThanMe:
+//        return "Bigger than me"
+//    case  .Decided:
+//        "Decided blah blah blah"
+//        
+//    }
+//    print(songs(song: .FinallyFamous))
+//    
+//    
+//    
+//}
+
+////////////////////////////////ENUMS WITHOUT FUNCTIONS///////////////////////////////////////////////////////////////////
+
+
 
      
+
+
 
 
 
