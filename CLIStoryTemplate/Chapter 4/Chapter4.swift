@@ -9,15 +9,17 @@ import Foundation
 
 let numberOfOrganizations: Int = 3
  let Lead = "Sean Anderson" //Big Sean
- let safDate = "2012"
- let donDate = "2018"
+let multipleDates: [String] = [
+"2012",
+"2018",
+"2017" ]
+let meditationN = ["Step 1: Find a quiet spot","Step 2: Close your eyes","Step 3: Focus on your breathing", "Step 4: Become one with the earth", "Step 5: Travel above the earth", "Step 6: Go all gold everything"]
  let key = "2017"
  let org1 = "Sean Anderson Foundation"
  let org2 = "DON"
  let yesSAF = false
  let noSAF = true
  // swap them around
-
 
  func chapterFour() {
 
@@ -26,8 +28,8 @@ let numberOfOrganizations: Int = 3
      print("He now plays a role in a number of youth-helping organizations in the town.")
      print(" \(Lead) most known \(numberOfOrganizations) is the \(org1), \(org2) weekend, and many other as he continues to impact Detroit.")
 
-     print(" \(Lead) first founded the \(org1) in \(safDate)    ")
-     print("and \(Lead) also founded the \(org2) in \(donDate), a year after receiving a key to Detroit in \(key). ")
+     print(" \(Lead) first founded the \(org1) in \(multipleDates[0])")
+     print("and \(Lead) also founded the \(org2) in \(multipleDates[1]), a year after receiving a key to Detroit in \(multipleDates[2]).")
 
 
      if yesSAF {
@@ -47,12 +49,31 @@ let numberOfOrganizations: Int = 3
 
      afterKey(msg: "The community of Detroit has been greatly influenced by Big Sean, \(Lead)....")
 
-
-
-
-
+     for meditation in meditationN {
+         print (" An up close exclusive interview revealed that this is what Big Sean does when he is trying to meditate before a big show \(meditationN) ")
+         break
+         
      }
 
+     struct bigSeanClothing {
+         var shirt1: String
+         var shirt2: String
+     }
+     let bigSeanShop = bigSeanClothing(shirt1: "Find the light jersey", shirt2: "Live from Detroit Tee")
+     
+     print("  Big Sean also owns a clothing brand, Don Life, and you can find shirts like the," ,bigSeanShop.shirt2, "on his website bigseanshop.")
+     
+     enum bigSeanDonation {
+         case boysandgirlsclubofsoutheasternmichigan
+         case waynestateshighprogram
+         
+         
+         
+     }
+     
+     
+     }
+ 
 
  
 
