@@ -11,7 +11,7 @@ var isHumble = true
 var year: Int? = 0
 var isCrying = true
 
-struct Family {    // struct of big seans family with their title, names, and family relation
+struct Family {    // struct of big seans family with their title, names, and                      family relation
     var title: String
     var person: String
     var familyRelation: String?
@@ -24,7 +24,7 @@ var people = [Family(title: "rapper", person: "Sean Michael Leonard Anderson", f
 enum BigYears {   // enum or big seans important years
     case birth, startedRapping, metKanye
     
-    var year: Int {  // using self to use current instance of the cases, and assign years to them
+    var year: Int {  // using self to use current instance of the cases, and                     assign years to them
         switch self {
         case .birth:
             1988
@@ -40,7 +40,7 @@ enum BigYears {   // enum or big seans important years
 
 
 func bigseanIsBorn() {   // function to print big seans birth and young life
-    let yearBorn = BigYears.birth.year   // using BigYears enum and birth case to get the year
+    let yearBorn = BigYears.birth.year   // using BigYears enum and birth case                                       to get the year
 
     
     // string interpelation to get people data from struct in people array
@@ -62,7 +62,7 @@ func bigseanIsBorn() {   // function to print big seans birth and young life
     }
 }
 
-func importantMoments(index: Int) -> String {   // function to store and return big seans important                                                       moments at index
+func importantMoments(index: Int) -> String {   // function to store and return                                           big seans important moments at index
     let formativeMoments = ["He would rap occoasionaly over the Detroit radio station 102.7FM", "and would later attend Cass Tech High School", "'There's been so many nights where instead of going out I've had to work and was depressed so I feel like I deserve this. This is what I was meant to do.'"]
     return formativeMoments[index]
 }
@@ -75,20 +75,20 @@ func importantMoments(index: Int) -> String {   // function to store and return 
         
         bigseanIsBorn()  // calls big seans birth function
         
-        let yearRapping = BigYears.startedRapping.year   // set the year he started rapping using BigYears                                                 enum and cases
+        let yearRapping = BigYears.startedRapping.year   // set the year he                                            started rapping using BigYears                                                 enum and cases
         
         
-        if let person = people[1].familyRelation {
+        if people[1].familyRelation != nil {
             print("   \(rapper) was raised by his \(String(describing: people[1].familyRelation ?? "no relation"))     \(people[1].person) and his")
         }
-        if let person = people[2].familyRelation {
+        if people[2].familyRelation != nil {
             print("\(String(describing: people[2].familyRelation ?? "no relation")) \(people[2].person) to work hard in everything he did. Sean started rapping at the age of 12 in \(yearRapping), attending Waldorf School in Detroit, \(importantMoments(index: 1)), where he purued his music passion.")
             print("\(rapper) even sold copies of his music in high school to his piers.")
         }
         
         
         
-        let bigBreak = BigYears.metKanye.year   // using enum and case to set his big break year
+        let bigBreak = BigYears.metKanye.year   // using enum and case to set                                           his big break year
         
         
  // get the important moment at index zero from array in function
@@ -105,8 +105,6 @@ func importantMoments(index: Int) -> String {   // function to store and return 
         else {
             print("\(rapper) let the fame get to him, got involved with drugs and was thrown in jail.")
         }
-        
-        
-        
+    
     }
 
