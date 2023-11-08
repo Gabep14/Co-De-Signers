@@ -21,7 +21,7 @@ let doesNotSignWithLabel = "Does not gain fame and stays working as a telemarket
 
 ////////////////////////////////////////////////Array//////////////////////////////////////////////////////
 ///optionals
-let influencesarray: [String??] =  ["Eminem, The Notorious B.I.G., and J Dilla"]
+let influencesarray: [String] =  ["Eminem, The Notorious B.I.G., and J Dilla"]
 var signedWithLabelarray: [Bool] = [true]
 
 //////////Optionals/////////////////////////
@@ -90,15 +90,19 @@ struct Person {
         ]
         
         let barsAreGood = false
+        let bar: String? = nil
+        
         
         if !barsAreGood {
             for index in 0..<barz.count {
-                print(barz.randomElement()!)
+                print(barz.randomElement())
             }
+
         } else {
             for bar in barz {
                 print(bar)
             }
+           
         }
         
         print("\(mainCharacter)'s influences were")
@@ -158,11 +162,11 @@ enum Phrases {
     }
     
     
-    var randomSong: String {
+    var randomSong: String?? {
         self.songs.randomElement()!
     }
-    
-    var firstSong: String {
+    ////another spot for optionals
+    var firstSong: String?? {
         self.songs [0]
     }
 }
