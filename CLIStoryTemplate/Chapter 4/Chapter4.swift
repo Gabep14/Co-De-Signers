@@ -27,7 +27,7 @@ func chapterFour() {
     print (" \(Lead) continues to stay in touch with his roots even after becoming wealthy and well-known.")
     print("He now plays a role in a number of youth-helping organizations in the town.")
     print(" \(Lead) most known \(numberOfOrganizations) is the \(org1), \(org2) weekend, and many other as he continues to impact Detroit.")
-    print("The impact that \(Lead) has on Detroit has gained the respect of so many Detroit natives, including me. \(Lead)has given Detroit's youth a great deal of opportunities and a great deal to parents who were unable to support their children at the time.  ")
+    print("The impact that \(Lead) has on Detroit has gained the respect of so many Detroit natives, including me. \(Lead) has given Detroit's youth a great deal of opportunities and a great deal to parents who were unable to support their children at the time.  ")
     print(" \(Lead) first founded the \(org1) in \(multipleDates[0])")
     print("and \(Lead) also founded the \(org2) in \(multipleDates[1]), a year after receiving a key to Detroit in \(multipleDates[2]).")
     
@@ -79,10 +79,8 @@ func chapterFour() {
         
     }
     
-    print(donationSean.boysandgirlsclubofsoutheasternmichigan)
+ 
     
-    
-
     }
     
     
