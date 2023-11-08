@@ -19,6 +19,7 @@ let meditationN = ["Step 1: Find a quiet spot","Step 2: Close your eyes","Step 3
  let org2 = "DON"
  let yesSAF = false
  let noSAF = true
+let String = "Detroit"
  // swap them around
 
 func chapterFour() {
@@ -79,7 +80,22 @@ func chapterFour() {
         
     }
     
- 
+    //Optionals
+   
+    
+    var Sean: String? = "Entrepreneur"
+    
+    if let unwrappedSean = Sean {
+        print("\(Lead) owns multiple businesses and the \(unwrappedSean) also plays a hand in many youth organizations.")
+    } else {
+        print("\(Lead) forgot about us.")
+         Sean = "Big Sean"
+    }
+    
+    print(Sean)
+    
+    
+    
     
     }
     
