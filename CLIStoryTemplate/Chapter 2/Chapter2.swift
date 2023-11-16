@@ -20,7 +20,7 @@ let doesNotSignWithLabel = "Does not gain fame and stays working as a telemarket
 
 
 ////////////////////////////////////////////////Array//////////////////////////////////////////////////////
-///optionals
+
 let influencesarray: [String] =  ["Eminem, The Notorious B.I.G., and J Dilla"]
 var signedWithLabelarray: [Bool] = [true]
 
@@ -113,6 +113,8 @@ struct Person {
         
         print("\(labelOwner) told \(mainCharacter) that he wanted to add him to his record label.")
         print("\(mainCharacter) gave \(labelOwner) all of the mixtapes he had been working on.")
+        
+        
         //Struct call in////
         let bigSean = Person(main: "BigSean", date: 2005)
         bigSean.signWithLabel()

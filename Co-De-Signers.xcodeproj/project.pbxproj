@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D2E1FE12AE9FA6800AF35A1 /* Chapter 2 conditions, functions.. and all.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2E1FE02AE9FA6800AF35A1 /* Chapter 2 conditions, functions.. and all.swift */; };
+		2D358E942B0272CC005BA76C /* UI view for Story .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D358E932B0272CC005BA76C /* UI view for Story .swift */; };
 		640C39602AEC119200984716 /* Chapter1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640C395F2AEC119200984716 /* Chapter1.swift */; };
 		74E289BE2A7C21FC003072EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289BD2A7C21FC003072EC /* main.swift */; };
 		74E289C72A7C2211003072EC /* Chapter2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289C62A7C2211003072EC /* Chapter2.swift */; };
@@ -29,7 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2D2E1FE02AE9FA6800AF35A1 /* Chapter 2 conditions, functions.. and all.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter 2 conditions, functions.. and all.swift"; sourceTree = "<group>"; };
+		2D358E932B0272CC005BA76C /* UI view for Story .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI view for Story .swift"; sourceTree = "<group>"; };
 		640C395F2AEC119200984716 /* Chapter1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1.swift; sourceTree = "<group>"; };
 		74E289BA2A7C21FC003072EC /* Co-De-Signers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Co-De-Signers"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E289BD2A7C21FC003072EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -53,6 +53,7 @@
 		74E289B12A7C21FC003072EC = {
 			isa = PBXGroup;
 			children = (
+				2D358E932B0272CC005BA76C /* UI view for Story .swift */,
 				74E289BC2A7C21FC003072EC /* CLIStoryTemplate */,
 				74E289BB2A7C21FC003072EC /* Products */,
 			);
@@ -91,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				74E289C62A7C2211003072EC /* Chapter2.swift */,
-				2D2E1FE02AE9FA6800AF35A1 /* Chapter 2 conditions, functions.. and all.swift */,
 			);
 			path = "Chapter 2";
 			sourceTree = "<group>";
@@ -183,8 +183,8 @@
 				74E289C72A7C2211003072EC /* Chapter2.swift in Sources */,
 				74E289C92A7C221D003072EC /* Chapter3.swift in Sources */,
 				74E289CD2A7C222C003072EC /* Chapter5.swift in Sources */,
+				2D358E942B0272CC005BA76C /* UI view for Story .swift in Sources */,
 				640C39602AEC119200984716 /* Chapter1.swift in Sources */,
-				2D2E1FE12AE9FA6800AF35A1 /* Chapter 2 conditions, functions.. and all.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +313,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 6W2BB3Y823;
+				DEVELOPMENT_TEAM = 4WWSDHPDM8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -325,7 +325,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 6W2BB3Y823;
+				DEVELOPMENT_TEAM = 4WWSDHPDM8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
